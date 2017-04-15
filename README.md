@@ -22,5 +22,6 @@ sudo docker run -i -t dockter/docker-alpine:3.5 /bin/bash
 [dockter/docker-alpine](https://hub.docker.com/r/dockter/docker-alpine/)
 
 ```console
+sudo docker login
 sudo docker push dockter/docker-alpine:3.5
 ```
