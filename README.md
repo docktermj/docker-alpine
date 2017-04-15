@@ -8,20 +8,20 @@ packages.
 ## Build
 
 ```console
-sudo docker build -t dockter/docker-alpine:3.5 .
+sudo docker build -t dockter/alpine:3.5 .
 ```
 
 ## Run
 
 ```console
-sudo docker run -i -t dockter/docker-alpine:3.5 /bin/bash
+sudo docker run -i -t dockter/alpine:3.5 /bin/bash
 ```
 
 ## Push to Docker Hub
 
-[dockter/docker-alpine](https://hub.docker.com/r/dockter/docker-alpine/)
+[dockter/alpine](https://hub.docker.com/r/dockter/alpine/)
 
 ```console
 sudo docker login
-sudo docker push dockter/docker-alpine:3.5
+sudo docker push dockter/alpine:3.5
 ```
